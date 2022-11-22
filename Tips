@@ -1,0 +1,30 @@
+TKINTER:
+
+    Buttons:
+        - If using the tkinter library and you want to execute a command use 'command=lambda: [COMMAND]', so it will only execute if I press the button
+        - with .grid(sticky="nsew") the button will fill one place
+
+    Text:
+        - to get the text input use .get("0.1", "end-1c")
+
+    Entry:
+        - to get teh text input use .get()
+
+    Label:
+        - to change text use .configure(text="") (also works with font etc)
+
+    Option Menu:
+        - to create one use OptionMenu
+        - u need a StringVar and a *list as parameters
+        - to check it changes use .trace("w", [command])
+        - to not cause any errors use *args in the function/methode
+
+
+Tkmacosx:
+    (look at https://github.com/Saadmairaj/tkmacosx#requirements)
+
+    look for SaveVar (could be useful)
+
+    Button:
+        - for hover effect use 'overbackground' and 'overforeground'
+
